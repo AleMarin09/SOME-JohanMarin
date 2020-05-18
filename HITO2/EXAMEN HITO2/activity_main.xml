@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/coronavirus"></ImageView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/titulo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/cocha"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cochaconfirmados">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etnumcasoscocha"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/numcasoscocha"
+
+                >
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv33"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cochasospechosos">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etnumsospechososcocha"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/numsospechososcocha"
+
+                >
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/santa"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/santaconfirmados">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etnumcasossanta"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/numcasossanta">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvsos2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/santasospechosos">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etnumsospechosossanta"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/numsospechosossanta"
+
+                >
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/oruro"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/oruroconfirmados">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etnumcasosoruro"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/numcasosoruro">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvsos3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/orurosospechosos">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etnumsospechososoruro"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/numsospechososoruro">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="0dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num1"
+                android:layout_marginTop="5dp"
+                >
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num2"
+                android:layout_marginTop="5dp"
+                >
+
+            </EditText>
+            <EditText
+                android:id="@+id/departamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/dep"
+                android:layout_marginTop="5dp"
+                >
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnsetvalues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Mandar"
+                android:text="@string/setvalues"></Button>
+
+
+
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/busqueda"
+            android:layout_marginTop="5dp"
+            >
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btncalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Calcular"
+            android:text="@string/calcular"></Button>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
